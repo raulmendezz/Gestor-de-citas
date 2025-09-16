@@ -26,7 +26,7 @@ $clientes = $cliente->listar();
 </head>
 <body>
 <h2>Bienvenido, <?php echo $_SESSION["usuario_nombre"]; ?></h2>
-<a href="../logout.php">Cerrar sesión</a>
+<a href="../logout.php" class="logOut">Cerrar sesión</a>
 
 <h3>Nueva Cita</h3>
 <form action="../controllers/citasController.php" method="POST">
