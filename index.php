@@ -16,7 +16,7 @@ if (isset($_SESSION["error"])) {
     <meta charset="UTF-8">
     <title>Peluquería - Login/Register</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="public/css/styles.css">
+    <link rel="stylesheet" href="public/css/index.css">
     <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
     <script src="public/js/index.js"></script>
 </head>

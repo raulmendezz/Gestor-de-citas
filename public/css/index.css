@@ -1,0 +1,121 @@
+body {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #e0e7ff 0%, #f4f6f9 100%);
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: #222;
+}
+
+.container {
+    margin-top: 60px;
+}
+
+.card {
+    border: none;
+    border-radius: 18px;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.10);
+    background: white;
+    overflow: hidden;
+}
+
+.card-header {
+    background: linear-gradient(90deg, #007bff 80%, #6a82fb 100%);
+    color: white;
+    border-bottom: none;
+    padding: 28px 0 18px 0;
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.nav-tabs {
+    border-bottom: none;
+    justify-content: center;
+    margin-bottom: 0;
+}
+
+.nav-tabs .nav-link {
+    border: none;
+    border-radius: 0;
+    background: none;
+    color: #007bff;
+    font-weight: 500;
+    font-size: 1.1rem;
+    padding: 12px 32px;
+    transition: background 0.2s, color 0.2s;
+}
+
+.nav-tabs .nav-link.active {
+    background: linear-gradient(90deg, #007bff 80%, #6a82fb 100%);
+    color: white;
+    border-radius: 12px 12px 0 0;
+    font-weight: 600;
+}
+
+.tab-content {
+    background: #f8faff;
+    border-radius: 0 0 12px 12px;
+    box-shadow: 0 2px 8px rgba(0,123,255,0.04);
+    padding: 30px 28px 22px 28px;
+}
+
+.form-control {
+    border-radius: 7px;
+    border: 1px solid #cfd8dc;
+    font-size: 1rem;
+    padding: 12px;
+    margin-bottom: 18px;
+    transition: border 0.2s, box-shadow 0.2s;
+}
+
+.form-control:focus {
+    border: 1.5px solid #007bff;
+    outline: none;
+    box-shadow: 0 0 0 2px #e3f0ff;
+}
+
+.btn-primary, .btn-success {
+    border-radius: 7px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    box-shadow: 0 2px 8px rgba(0,123,255,0.08);
+    border: none;
+    transition: background 0.3s, box-shadow 0.3s;
+}
+
+.btn-primary {
+    background: linear-gradient(90deg, #007bff 80%, #6a82fb 100%);
+    color: white;
+}
+
+.btn-primary:hover {
+    background: #0056b3;
+}
+
+.btn-success {
+    background: linear-gradient(90deg, #007bff 80%, #6a82fb 100%);
+    color: white;
+}
+
+.btn-success:hover {
+    background: #007bff;
+}
+
+.alert-info {
+    border-radius: 7px;
+    background: linear-gradient(90deg, #e0e7ff 80%, #f4f6f9 100%);
+    color: #007bff;
+    border: 1px solid #b6d4fe;
+    font-weight: 500;
+    margin-bottom: 18px;
+    text-align: center;
+}
+
+@media (max-width: 700px) {
+    .container {
+        margin-top: 30px;
+    }
+    .card-header, .tab-content {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
